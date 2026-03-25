@@ -1,14 +1,43 @@
-# 🏦 Banka Sistemi
+# 🏦 Bank Management System
 
-C++ ile yazılmış konsol tabanlı banka yönetim sistemi.
+A console-based bank management system developed in C++ as a first-year Computer Engineering project.
 
-## 📋 Özellikler
-- Hesap oluşturma (isim, şifre, bakiye)
-- Şifre ile giriş yapma
-- Para yatırma ve çekme
-- Bakiye sorgulama
-- Verilerin dosyaya kaydedilmesi
+## 📋 Features
+- Create a new bank account with name, password and starting balance
+- Secure login with password authentication
+- Deposit money to your account
+- Withdraw a specific amount or all funds
+- Check account balance
+- Data is saved permanently using file I/O
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 - C++
-- Dosya I/O (fstream)
+- File I/O (fstream)
+
+## 🚀 How to Run
+
+### Compile
+```bash
+g++ main.cpp -o bank
+```
+
+### Run
+```bash
+./bank        # Linux / Mac
+bank.exe      # Windows
+```
+
+## 📁 Project Structure
+```
+Bank-Management-System/
+│
+├── main.cpp        # Main source code
+└── hesaplar.txt    # Auto-generated data file
+```
+
+## 👨‍💻 Author
+**deWONAI** — Computer Engineering Student  
+GitHub: [@deWONAI](https://github.com/deWONAI)
+
+## 📌 Status
+🔄 Version 1.0 — Completed
